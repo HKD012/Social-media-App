@@ -1,7 +1,22 @@
-# Next.js 15 Social Media App
+# Full-Stack Social Media App
 
-A full-stack social media app with infinite loading, optimistic updates, authentication, DMs, notifications, file uploads, and much more.
+A full-stack Twitter/Instagram-style social media web application built with Next.js 15.
 
-Watch the free tutorial on YouTube: https://www.youtube.com/watch?v=TyV12oBDsYI
+## Features
+- Authentication with email/password and Google OAuth
+- Create posts with rich text and image uploads
+- Like, comment, and follow other users
+- Real-time direct messaging
+- Notifications system
+- Infinite scroll feed
+- Fully responsive UI
 
-![thumbnail 7](https://github.com/user-attachments/assets/686b37e4-3d16-4bc4-a7f2-9d152c3addf5)
+## Tech Stack
+- **Framework:** Next.js 15, React 19, TypeScript
+- **Database:** PostgreSQL, Prisma ORM
+- **Auth:** Lucia Auth, Google OAuth (Arctic)
+- **Real-time:** Stream Chat
+- **File Uploads:** UploadThing
+- **Data Fetching:** TanStack Query
+- **Styling:** Tailwind CSS, Radix UI
+- **Validation:** Zod, React Hook Form
